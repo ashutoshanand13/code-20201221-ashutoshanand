@@ -15,7 +15,7 @@ const puppeteer = require( 'puppeteer' );
 			}
         }
         catch( e ) {
-            console.log( `Could not get the style number:`, e.message );
+            console.log( `Could not get the needed data:`, e.message );
         }
     }
 
